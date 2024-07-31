@@ -1,0 +1,23 @@
+header{
+    display: flex;
+}
+header img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+h1{
+    margin-left: 10px;
+    font-size: xx-large;
+    font-family: "Playwrite PT";
+    color: #7F5539;
+}
+section {
+    display: flex;
+    text-align: right;
+}
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
