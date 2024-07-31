@@ -1,5 +1,5 @@
 # elgranerodelima
-Una página web  con la información sobre le tienda El Granero de Lima sobre productos a granel con un Catalogo-Generador de pedidos 
+Una página web  con la información sobre la tienda El Granero de Lima sobre productos a granel con un Catalogo-Generador de pedidos 
 
 ## Integrantes
 * García David
