@@ -1,9 +1,9 @@
 # ACUERDO DE EQUIPO
 ## Plan de Cooperación
 1. Fortaleza de los integrantes del equipo
-    + García David: 
+    + García David: Mi fortaleza es el desarrollo del código en JS.
     + Hilario Veronica: Mi fortaleza es en la implementacion de html y estilos a la pagina web, con esta fortaleza aportare a mi equipo de trabajo en la parte del front end del proyecto.
-    + Morales Georgina: 
+    + Morales Georgina:  Mi fortaleza es la aplicación de estilos en CSS así como también el desarrollo de código en Js. 
 
 ## Plan en caso de conflicto
 1. **¿Cuál será el proceso de tu grupo para resolver los conflictos, cuando surjan?**
