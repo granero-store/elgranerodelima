@@ -87,6 +87,26 @@ main section img{
     margin-right: 70px;
     border-radius: 50%;
 }
+.index p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    text-align: justify;
+    margin: 40px;
+}
+
+.button a {
+    background-color: #9C6644;
+    color: #FAEACD;
+    padding: 20px;
+    margin: 30px 600px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+div .button{
+    display: flex;
+    justify-content: center;
+}
 .grid-imagenes{
     display: grid;
     grid-template-columns: repeat(3, 0.1fr);
@@ -101,13 +121,96 @@ main section img{
     /* margin-top: 15px; */
     font-size: 16px;
 }
-  
+.nombreForm {
+justify-content:center ;
+} 
 select {
-    /* padding: 8px; */
     border: 1px solid #aaa;
     border-radius: 5px;
     margin-bottom: 30px;
 }
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+form {
+    width: 300px;
+    height: 500px;
+    padding: 20px;
+    background-color: #f4f1ed;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .formulario input{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px; 
+    padding: 10px;
+    font-size: 16px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 10px; 
+  }
+    input[type="text"],
+    input[type="email"] {
+    display: block !important;
+    width: 100% !important;
+    margin-bottom: 10px !important;
+    padding: 10px !important;
+    font-size: 16px !important;
+    border: 1px solid #ccc !important;
+    border-radius: 4px !important;
+    box-sizing: border-box !important;
+    }
+
+  input[type="radio"] {
+    display: inline-block;
+    width: auto;
+    margin-right: 5px;
+  }
+  
+  input[type="radio"] + label {
+    display: inline-block;
+    margin-right: 15px;
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #7f5345;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 30px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #5f3a34;
+  }
+  
+  fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  legend {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .formulario div {
+    /* margin-bottom: 15px; */
+  }
+
 footer {
     display: flex;
     justify-content:space-between;
