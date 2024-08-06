@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>El Granero de Lima - Contacto</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Granero de Lima - Productos</title>
     <link rel="preload" href="../css/style.css" as="style">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playwrite+PT:wght@100..400&family=Righteous&display=swap" rel="stylesheet">
-  </head>
-  <body>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Playwrite+PT:wght@100..400&family=Righteous&display=swap" rel="stylesheet"> -->
+    <!-- Adicional DRGG -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <script src="../js/app.js"></script>
+</head>
+<body>
     <div class="header-container">
         <header>
             <img src="../img/logo-granero.jpg">
@@ -40,51 +43,28 @@
         <a href="../index.html">Nosotros</a>
         <a href="./sales.html">Productos</a>
         <a href="#talleres">Talleres</a>
-        <a href="./formulario.html">Contacto</a>
+        <a href="">Contacto</a>
     </nav>
     </div>
-    <!-- <div class="banner-container">
+    <div class="banner-container">
         <img src="../img/banner7.jpg">    
-    </div> -->
-    <section class="nombreForm">
-      <h1>Registra tu pedido!</h1>  
-    </section>
-    <main class="form">
-      <form action="" method="get" id="form-cliente">
-        <fieldset>
-          <legend>Datos del Cliente</legend>
-          <div>
-            <div class="formulario">
-                <label for="nombre-persona">Nombres y Apellidos:</label>
-                <input type="text" placeholder="Nombre Completo" id="nombre-persona" name="nombre"/>
-            </div>
-            <div>
-                <label for="tipo-documento">Tipo documento:</label>
-                <input type="text" placeholder="DNI" id="tipo-documento" name="tipoDocumento">
-            </div>
-            <div>
-                <label for="nro-documento">Nro Documento:</label>
-                <input type="text" placeholder="Ingresar DNI" id ="nro-documento" name="DNI">
-            </div>
-            <div>
-                <label for="direccion">Dirección:</label>
-                <input type="text" placeholder="Ingresar Dirección" id="direccion" name="direccion">
-            </div>
-            <div>
-                <label for="email">Correo Electrónico</label>
-                <input type="email" placeholder="Ingresa tu correo" id="email" name="email">
-            </div>
-            <div>
-                <input type="radio" id="boleta" name="tipoComprobante" value="boleta">
-                <label for="boleta"> Boleta </label>
-                <input type="radio" id="factura" name="tipoComprobante" value="factura">
-                <label for="factura"> Factura </label>
-            </div>
-          </div>
-        </fieldset>
-        <button type="submit" id="btn-datos">Enviar datos</button>
-      </form>
-    </main>
+    </div>
+    <div class="container">
+        <div class="row">
+            <main id="items" class="col-sm-8 row"> </main>
+            <!-- Carrito -->
+            <aside class="col-sm-4">
+                <h2>Carrito</h2>
+                <!-- Elementos del carrito -->
+                <ul id="cart" class="list-group"></ul>
+                <hr>
+                <!-- Precio total -->
+                <p class="text-right">Total: <span id="total"></span> S/ </p>
+                <button id="button-empty" class="btn btn-danger">Vaciar</button>
+            </aside>
+        </div>
+    </div>
+    
     <footer>
         <p>Copyright © 2024 El Granero de Lima.</p>
         <div class="icons">
@@ -110,6 +90,6 @@
         </div>
         
     </footer>
-    <script src="../js/form.js"></script>
-  </body>
+    <!-- <script src="../js/demo.js"></script> -->
+</body>
 </html>
