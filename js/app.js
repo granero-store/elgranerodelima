@@ -1,17 +1,17 @@
 'use strict';
 
 function Product(ProductID, ProductName, StandardCost, ListPrice, Size, SizeUnitMeasureCode, Weight, WeightUnitMeasureCode, name) {
-    this.ProductID = ProductID,
-    this.ProductName = ProductName,
-    this.StandardCost = StandardCost,
-    this.ListPrice = ListPrice,
-    this.Size = Size,
-    this.SizeUnitMeasureCode = SizeUnitMeasureCode,
-    this.WeightUnitMeasureCode = WeightUnitMeasureCode,
-    this.Weight = Weight,    
-    this.name = name,//nombre archivo jpg
-    this.path = "./img/",
-    this.extension = ".jpg"
+  this.ProductID = ProductID,
+  this.ProductName = ProductName,
+  this.StandardCost = StandardCost,
+  this.ListPrice = ListPrice,
+  this.Size = Size,
+  this.SizeUnitMeasureCode = SizeUnitMeasureCode,
+  this.WeightUnitMeasureCode = WeightUnitMeasureCode,
+  this.Weight = Weight,
+  this.name = name,//nombre archivo jpg
+  this.path = "./img/",
+  this.extension = ".jpg",
 }
 
 //retorna ruta de imagen
